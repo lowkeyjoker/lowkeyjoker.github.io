@@ -49,3 +49,221 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+/* General styles */
+
+html {
+	font-size:16px;
+}
+
+
+/* Imported Fonts */
+
+
+@font-face {
+	font-family:Lato;
+	src: url(../fonts/sans-serif/lato-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Montserrat;
+	src: url(../fonts/sans-serif/montserrat-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Opensans;
+	src: url(../fonts/sans-serif/opensans-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Roboto;
+	src: url(../fonts/sans-serif/roboto-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Josefinslab;
+	src: url(../fonts/serif/josefinslab-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Robotoslab;
+	src: url(../fonts/serif/robotoslab-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Rozhaone;
+	src: url(../fonts/serif/rozhaone-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:Ultra;
+	src: url(.../fonts/serif/ultra-regular.ttf) format('typetrue');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+    font-family:Alfa Slab One;
+    src: url(../fonts/serif/alfa-slab-one-regular.ttf) format('typetrue');
+    font-style:normal;
+    font-weight:normal;
+}
+
+/* Classes */
+.highlight {
+	color:darkred;
+}
+
+.article-image {
+	float:left;
+	
+}
+
+.subsection {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 1rem;
+	
+}
+
+.main-section {
+	display:flex;
+	padding-right: 1rem;
+	margin-right: 1rem
+}
+
+.expand {
+	font-size:.25rem;
+}
+
+.aside {
+	border-bottom: .125rem solid black;
+	padding-bottom: 2.5rem;
+	margin-bottom: 2.5rem
+}
+
+.footer {
+	text-align:right;
+	
+}
+/* Typography */
+
+foot
+	
+figure {
+	
+}
+
+figure img {
+	
+}
+
+figcaption {
+	background-color:#EEEEDD;
+	text-align:center;
+	padding:.5rem;
+	font-size:.75rem;
+	font-family:Rozhaone, Arial, serif;
+	display:block
+}
+	
+main {
+	padding-top:1rem
+}
+
+h1 {
+	font-family:Ultra, Arial, serif;
+	text-transform: uppercase;
+	font-size: 6rem;
+	letter-spacing: .5rem;
+	text-align:center;
+	text-shadow:.09375rem .09375rem .09375rem black;
+}
+
+h2 {
+	font-family:Josefinslab, Arial, serif;
+}
+
+h3 {
+	font-family:Rozhaone, Arial, serif;
+	
+	
+}
+
+
+p {
+	font-family:Josefinslab, Arial, serif;
+	padding-left:1rem;
+	text-indent:1.5rem;
+	line-height:1.4
+}
+
+aside {
+	border-left: .125rem solid black;
+	padding-left: 3rem;
+	margin-left: 3rem
+}
+/* Link Styling */
+
+a {
+	outline-color: transparent;
+	text-decoration:none
+}
+
+a:link,
+a:visited {
+	outline-color: transparent;
+	color:#6F7D77;
+}
+
+a:focus,
+a:hover {
+	outline-color: transparent;
+	text-decoration:none;
+}
+
+/* Nav bar*/
+
+nav {
+	border-top: .125rem solid black;
+	border-bottom: .125rem solid black;
+
+}
+
+nav ul {
+	list-style:none;
+	justify-content:center;
+	display:flex;
+	padding: .25rem;
+	font-size: 2rem;
+	
+}
+
+nav ul li {
+	margin: 1.5rem;
+}
+/* Subscribe button??? */
+button {
+	text-transform: uppercase;
+	color:white;
+	background-color:#27476E;
+	font-size: 3rem;
+	padding:1rem;
+	font-family:'Alfa Slab One', Garamond, serif;
+	text-shadow:.09375rem .09375rem .09375rem black;
+	margin-top:3.5rem;
+	margin-left:3.5rem
+	
